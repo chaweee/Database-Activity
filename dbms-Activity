@@ -1,0 +1,42 @@
+-- Create the database
+CREATE DATABASE sari_sari_store;
+
+-- Use the database
+USE sari_sari_store;
+
+-- Create the table
+CREATE TABLE inventory (
+    CuID INT PRIMARY KEY,
+    Food VARCHAR(50),
+    Beverage VARCHAR(50),
+    Condiment VARCHAR(50),
+    Utility VARCHAR(50)
+);
+
+-- Insert data into the table
+INSERT INTO inventory (CuID, Food, Beverage, Condiment, Utility) VALUES
+(1, 'Lugaw', 'Sago’t Gulaman', 'Patis', 'Bigas'),
+(2, 'Tapsilog', 'Calamansi Juice', 'Toyomansi', 'Mantika'),
+(3, 'Pancit Canton', 'Tang', 'Sili', 'Asukal'),
+(4, 'Adobo', 'Buko Juice', 'Ketchup', 'Sabaw'),
+(5, 'Sinigang', 'Softdrink', 'Bagoong', 'Labanos'),
+(6, 'Lechon', 'Fresh Coconut', 'Vinegar', 'De lata'),
+(7, 'Kare-Kare', 'Iced Tea', 'Peanut Sauce', 'Bawang'),
+(8, 'Halo-Halo', 'Milk', 'Condensed Milk', 'Gatas'),
+(9, 'Burger', 'Coffee', 'Mayonnaise', 'Tinapay'),
+(10, 'Puto', 'Tea', 'Ube Jam', 'Snacks'),
+(11, 'Arroz Caldo', 'Lemonade', 'Chili Sauce', 'Spices'),
+(12, 'Bibingka', 'Fruit Shake', 'Sugar', 'Pancit'),
+(13, 'Tofu Silog', 'Soda', 'Soy Sauce', 'Sibuyas'),
+(14, 'Empanada', 'Juice', 'Hot Sauce', 'Saging'),
+(15, 'Chao Fan', 'Water', 'Oyster Sauce', 'Kamatis'),
+(16, 'Bihon', 'Cucumber Juice', 'Mang Tomas', 'Suka'),
+(17, 'Lumpiang Shanghai', 'Calamansi', 'Sweet Sauce', 'Canned Sardines'),
+(18, 'Longganisa', 'Fruit Juice', 'Honey', 'Labanos'),
+(19, 'Bicol Express', 'Iced Coffee', 'Chili Paste', 'Sweet Peppers'),
+(20, 'Sinangag', 'Barako Coffee', 'Salt', 'Kangkong'),
+(21, 'Tapsi', 'Softdrinks', 'Fish Sauce', 'Oil'),
+(22, 'Pansit Habhab', 'Tea', 'Lemon Juice', 'Buko'),
+(23, 'Chicken Inasal', 'Sweet Tea', 'BBQ Sauce', 'Pancit'),
+(24, 'Pansit Bihon', 'Milk Tea', 'Vinegar', 'Rice Flour'),
+(25, 'Turon', 'Chocolate Drink', 'Sugar', 'Instant Noodles');
